@@ -1,0 +1,81 @@
+/*--------
+        FONTS
+              ---- */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:wght@200;400&family=Roboto+Condensed&family=Work+Sans:wght@300&display=swap');
+
+/* common styles */
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+}
+
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+
+}
+
+.player img {
+    height: 58px;
+    width: 58px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player-name,
+.details {
+    margin-left: 14px;
+}
+
+hr {
+    border: 2px solid rgba(128, 128, 128, 0.252);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* -----------BLOGS STYLES--------- */
+.top-blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 26px 20px;
+
+}
+
+.blog-details {
+    display: flex;
+}
+
+.details a {
+    text-decoration: none;
+    color: #562EFF;
+}
+
+.blog-details img {
+    height: 177px;
+    width: 117;
+
+}
